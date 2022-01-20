@@ -49,3 +49,47 @@ let blogfunction = ({ owner, url, getPost}) => {
 }
 blogfunction(blog)
 ```
+
+### 백틱 (`)
++기호 없이 문자열 합치기
+
+```
+let name = "aemin"
+let str = `my name is ${name}`;
+
+console.log(str)
+
+출력 결과 : my name is aemin
+```
+
+### 딕셔너리를 짧게 작성하기
+기존방식
+```
+var name = "aemin"
+var job = "developer"
+
+ver user = {
+  name : name
+  job : job
+}
+
+console.log(uer);
+// {name : "aemin", job : "developer"}
+```
+최신방식
+```
+var name = "aemin"
+var job = "developer"
+
+ver user = {
+  name 
+  job 
+}
+
+console.log(uer);
+// {name : "aemin", job : "developer"}
+
+// key : value 형태에서 단순히 변수명만 작성해주면 변수명과 동일한 필드가 생성되며, 그 값이 대입됨
+```
+
+
