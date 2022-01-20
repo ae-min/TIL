@@ -3,7 +3,7 @@
 ### 함수를 더 짧게 사용하기 - 화살표함수
 
 
-기존방식
+기존
 
 ```
   let a = function() {
@@ -13,7 +13,7 @@
 ```
 
 
-최신방식
+ES6
 ```
   let a = () => {
     console.log("화살표함수");
@@ -63,7 +63,7 @@ console.log(str)
 ```
 
 ### 딕셔너리를 짧게 작성하기
-기존방식
+기존
 ```
 var name = "aemin"
 var job = "developer"
@@ -76,7 +76,7 @@ ver user = {
 console.log(uer);
 // {name : "aemin", job : "developer"}
 ```
-최신방식
+ES6
 ```
 var name = "aemin"
 var job = "developer"
