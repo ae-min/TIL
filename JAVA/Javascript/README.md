@@ -92,4 +92,26 @@ console.log(uer);
 // key : value 형태에서 단순히 변수명만 작성해주면 변수명과 동일한 필드가 생성되며, 그 값이 대입됨
 ```
 
+### map을 통한 반복문
+리스트를 통한 순회
+```
+let numbers = [1.2,3,4];
+for (let i=0; i<numbers.length; i++){
+  console.log(numbers[i]);
+}
+```
+map : 리스트의 길이(length)를 몰라도되며, for와는 반대로 리스트안에서 몇번째에 있는 값인지 순서를 알려줌
+```
+let numbers = [1.2,3,4];
+numbers.map((value, i) => {
+  console.log(value, i)
+})
+
+// value : numbers의 값. i : 인덱스 번호
+// 출력
+1 0
+2 1
+3 2
+4 3
+```
 
