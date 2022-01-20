@@ -117,6 +117,7 @@ numbers.map((value, i) => {
 
 ### module system
 export : 자바스크립트 값, 함수, 딕셔너리(객체) 또는 자바스크립트 파일 자체를 외부로 내보내는 키워드
+
 import : 자바스크립트 파일 안으로 가져오는 키워드
 ```
 export function time(x) {
