@@ -8,6 +8,9 @@
 
 - [자바의정석](https://github.com/ae-min/TIL/tree/main/JAVA/%EC%9E%90%EB%B0%94%EC%9D%98%EC%A0%95%EC%84%9D)
 
+### JavaScript
+
+- 자바스크립트
 
 
 
