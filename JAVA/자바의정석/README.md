@@ -2,7 +2,7 @@
 
 ## contents
 - [JAVA](https://github.com/ae-min/TIL/blob/main/JAVA/%EC%9E%90%EB%B0%94%EC%9D%98%EC%A0%95%EC%84%9D/JAVA..md)
-- 변수
+- [변수](https://github.com/ae-min/TIL/blob/main/JAVA/%EC%9E%90%EB%B0%94%EC%9D%98%EC%A0%95%EC%84%9D/%EB%B3%80%EC%88%98.md)
 - 연산자
 - 조건문과 반복문
 - 배열
