@@ -12,7 +12,8 @@
 
 ### Python
 - [코딩테스트 참고자료](https://github.com/ae-min/TIL/tree/main/Python)
-
+- [점프투파이썬](https://wikidocs.net/13)
+- 
 ### Docker
 - [Docker](https://github.com/ae-min/TIL/tree/main/Docker)
 
