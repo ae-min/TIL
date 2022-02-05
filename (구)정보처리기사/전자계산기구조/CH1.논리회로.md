@@ -67,6 +67,41 @@
 - 보통 NAND 게이트를 이용해 구성
 - SET(S)단자와 RESET(R)단자를 가짐
 - SET(S)단자와 RESET(R)단자가 모두 1인 경우는 허용되지 않음
+- Q(t) : time, Q(t+1) : 다음 time 
  
- <img width="300" src="https://user-images.githubusercontent.com/29009929/152485572-11e08663-43f0-4438-af5a-a2a46d03d83c.png">
+ <img width="300" src="https://user-images.githubusercontent.com/29009929/152485572-11e08663-43f0-4438-af5a-a2a46d03d83c.png"> <img width="245" src="https://user-images.githubusercontent.com/29009929/152630562-9a94e88b-46b9-4a6a-9ec9-fc1fa7f2c5b9.png">
+
+## 1.2 JK플립플롭
+- RS플립플롭에서 S와 R이 각각 1일 때 허용되지 않는 것을 보완한 플립플롭
+- RS플립플롭의 내부상태와 입력상태를 AND게이트로 처리하여 입력하는 플립플롭
+
+ <img width="340" src="https://user-images.githubusercontent.com/29009929/152630640-3347f249-e05b-4d09-bf37-59b746a3ed69.png"> <img width="250" src="https://user-images.githubusercontent.com/29009929/152630630-ea48f3f9-b85b-4640-9afa-2a445a3d6082.png">
+
+## 1.3 D플립플롭
+- RS, JK플립플롭에서 서로 배타적인 경우만 이용되도록 고안된 플립플롭
+- 1비트 지연소자로 사용됨
+
+ <img width="310" src="https://user-images.githubusercontent.com/29009929/152630702-ac211f5a-1438-45ab-b1bd-3aeb130c43c3.png"> <img width="250" src="https://user-images.githubusercontent.com/29009929/152630742-e9f5229b-e4a1-4364-9f57-b192a19c9fe2.png">
+
+## 1.4 T플립플롭
+- JK플립플롭에서 J,K가 같은 값이 입력될 때만 이용할 수 있도록 고안된 플립플롭
+- 토글기능(반전,보수)을 이용하고자 할 때 사용됨
+
+ <img width="300" src="https://user-images.githubusercontent.com/29009929/152630810-1f73c405-204b-4357-a54e-d24fb28cccc0.png"> <img width="250" src="https://user-images.githubusercontent.com/29009929/152630857-f0069c04-dc3f-4cbb-9830-34237b235bc5.png">
+
+## 1.5 마스터슬레이브 플립플롭
+- race현상을 해결하기 위해서 고안된 플립플롭
+- 하나의 플립플롭이 주인역할을 하고, 다른 플립플롭이 종속되어 동작하도록 두 개 이상의 플립플롭 회로를 결합한 것
+- 주 플립플롭은 시간펄스가 상승할 때 동작하고, 종 플립플롭은 시간펄스가 하락할 때 동작
+
+## 2. 카운터 (Counter)
+시간펄스의 수를 카운트하거나, 제어 장치에서 각종 회로의 동작을 제어하는데 사용됨
+1) 리플카운터 : 가장 기본이 되는 비동기형 카운터, 플립플롭 수를 n이라 한다면, 2<sup>n</sup> 개까지의 독립된 수를 전부 표현
+2) 모드카운터 : 리플카운터는 전부 표현하는 반면, 모드(MOD)카운터는 임의의 수로 나눈 나머지만 표현할 수 있도록 개선한 카운터
+
+## 3. 레지스터
+연산에 사용될 데이터가 대기하거나, 연산된 결과 데이터가 임시적으로 대기
+1) 시프트레지스터 : 현재 레지스터에 있는 내용을 왼쪽이나 오른쪽의 연결된 플립플롭으로 1비트씩 이동시켜 밀어내기와 같은 동작을 수행하는 레지스터
+2) 병렬시프트레지스터 : n개의 비트로 구성된 레지스터의 내용을, 연결된 다른 레지스터로 한 번에 이동시킬 수 있는 레지스터
+
 
