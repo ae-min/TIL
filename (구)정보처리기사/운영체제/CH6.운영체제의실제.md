@@ -62,7 +62,7 @@
 <img width="500" src="https://user-images.githubusercontent.com/29009929/154252965-8dc4c36a-0c6b-4ac2-96d1-5ab8c7a6be5f.png">
 <img width="500" src="https://user-images.githubusercontent.com/29009929/154253049-8cf10917-031a-4bab-a1bd-7b92606a0f3f.png">
 <img width="500" src="https://user-images.githubusercontent.com/29009929/154253121-6fd5499c-589e-464a-af44-ef100e27c812.png">
-<img width="500" src="https://user-images.githubusercontent.com/29009929/154253201-aeb84546-d503-4fea-8e2f-6042564c3ff0.png">
+<img width="500" src="https://user-images.githubusercontent.com/29009929/154254675-698c4207-0b77-4fb1-87ca-dd21cbcce08e.png">
 
 ---
 # S2. PC 운영체제
@@ -75,8 +75,9 @@
 - 계층형 트리구조
 - 블록단위파일사상 기법사용
 
-<img width="500" src="https://user-images.githubusercontent.com/29009929/154254090-3b0c8667-cf42-46f5-9eb3-2062f2ef4e53.png">
-<img width="500" src="https://user-images.githubusercontent.com/29009929/154254167-aa0a7229-87c5-43a4-9164-5ae9d579fe23.png">
+<img width="500" src="https://user-images.githubusercontent.com/29009929/154254372-1b98f099-7c89-4a7b-bbc1-b3a9c53eb548.png">
+<img width="500" src="https://user-images.githubusercontent.com/29009929/154254434-c7beed97-0c14-48c3-a22f-cf486c41ac8b.png">
+
 ## 2. MS-Windows
 - GUI 그래픽지원 인터페이스
 - 32비트 명령어형식 지원
