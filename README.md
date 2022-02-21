@@ -7,7 +7,8 @@
 ### JAVA
 
 - [자바의정석](https://github.com/ae-min/TIL/tree/main/JAVA/%EC%9E%90%EB%B0%94%EC%9D%98%EC%A0%95%EC%84%9D)
-
+- [점프투자바](https://wikidocs.net/204)
+- [이것이자바다PDF](https://drunkenpolarbear.tistory.com/18)
 - 자바스크립트
 
 ### Python
