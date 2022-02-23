@@ -223,9 +223,16 @@
 - 구조적인 도형표기와 그것을 효율적으로 수행하기 위한 설계방법으로 구성됨
 - 요구분석과 설계분석, 설계명세서를 동시에 표현가능한 수동적 도구
 
-## 2. 브레인스토밍의 4가지 규칙
+## 2. PSL/PSA (Program Statement Language / Program Statement Analysis)
+- 미시간 대학의 ISDOS 프로젝트에서 개발된 요구분석용 자동화 도구
+- 요구분석에 필요한 내용을 PSL이란 기술언어를 사용하여 작성한 뒤,
+- PSA에 입력하면 PSA는 분석 데이터 베이스에 저장하고 있는 자료를 분석하여 최적의 요구 명세서를 자동으로 출력해줌
 
-
+## 3. SREM (Software Requirement Engineering Methodology) = RSL/REVS
+- TRW사가 우주국방시스템그룹에 의해 실시간 처리 소프트웨어 시스템에서 요구사항을 명확히 기술하도록 할 목적으로 개발
+- RSL과 REVS를 사용하는 자동화 도구
+- RSL(Requirement Statement Language) : 요소, 속성, 관계, 구조들을 기술하는 요구사항 기술 언어
+- REVS(Requirement Engineering and Validation System) : RSL로 기술된 요구사항들을 자동으로 분석하여 요구사항 분석 명세서를 출력하는 요구사항 분석기
 
 
 
