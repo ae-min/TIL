@@ -300,14 +300,10 @@
 - 음성, 영상전송에 응용됨
 - 대규모멀티미디어전송에 적합
 
+## 3. LAN의 기본형태
+- 스타형, 링형, 버스형, 계층형
 
-
-
-
-
-
-
-
+[4.네트워크형태](https://github.com/ae-min/TIL/blob/main/(%EA%B5%AC)%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%86%B5%EC%8B%A0/CH1.%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A0%84%EC%86%A1%EC%9D%B4%EB%A1%A0.md#4-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%ED%98%95%ED%83%9C-topology-%ED%86%A0%ED%8F%B4%EB%A1%9C%EC%A7%80)
 
 
 
