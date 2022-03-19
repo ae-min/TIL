@@ -25,6 +25,10 @@
       합(S) = A⊕B
       캐리(C) = A·B
       
+<img width="250" src="https://user-images.githubusercontent.com/29009929/159107719-66c568bf-6a39-43ec-a1be-1b537497243d.png">
+<img width="250" src="https://user-images.githubusercontent.com/29009929/159107731-6270a542-dd65-4bf7-892e-c3d4e8130b15.png">
+
+
 ## 1.2 반감산기 (Half Subtracter)
 - A에서 B를 뺀 차 D와 빌려온 수(자리내림수) B를 얻는 회로
 
