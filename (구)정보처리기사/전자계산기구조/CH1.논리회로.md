@@ -26,7 +26,7 @@
       캐리(C) = A·B
       
 <img width="250" src="https://user-images.githubusercontent.com/29009929/159107719-66c568bf-6a39-43ec-a1be-1b537497243d.png">
-<img width="250" src="https://user-images.githubusercontent.com/29009929/159107731-6270a542-dd65-4bf7-892e-c3d4e8130b15.png">
+<img width="200" src="https://user-images.githubusercontent.com/29009929/159107731-6270a542-dd65-4bf7-892e-c3d4e8130b15.png">
 
 
 ## 1.2 반감산기 (Half Subtracter)
@@ -40,9 +40,16 @@
 - 자리올림수도 고려하여 3개의 2진수를 더할 수 있게 만든 회로
 
       반가산기 2개, OR 1개  (반가산기 : AND 1개, XOR 1개)
+      -> AND 2개, XOR 2개, OR 1개
       합(S) = A⊕B⊕C
       캐리(C) = (A⊕B)·C + A·B 또는 A·B + B·C + A·C
-      
+
+<img width="300" src="https://user-images.githubusercontent.com/29009929/159107913-6fded893-37c5-4e95-b2a5-6e9b4f8e9231.png">
+<img width="300" src="https://user-images.githubusercontent.com/29009929/159107948-7c8764ed-383f-4304-8dfa-4e433a761dbc.png">
+<img width="300" src="https://user-images.githubusercontent.com/29009929/159107973-8b50383f-90d5-4083-9960-e607ebab6fe1.png">
+<img width="350" src="https://user-images.githubusercontent.com/29009929/159108006-7a425a90-dd5c-4a9b-8664-22a9060a5dcb.png">
+
+
 ## 1.4 전감산기 (Full Subtracter)
 - 자리내림수도 고려하여 3개의 2진수를 감산할 수 있게 만든 회로
       
