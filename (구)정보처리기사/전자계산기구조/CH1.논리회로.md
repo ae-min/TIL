@@ -33,9 +33,13 @@
 - A에서 B를 뺀 차 D와 빌려온 수(자리내림수) B를 얻는 회로
 
       NOT 1개, AND 1개, XOR 1개
+      -> 반가산기와 달리 NOT게이트 1개가 추가됨
       차(D) = X⊕Y
       빌려온수(B) = X'·Y
-      
+
+<img width="300" src="https://user-images.githubusercontent.com/29009929/159108294-c68ac126-1095-4b6a-8c97-c6289e2bb737.png">
+
+
 ## 1.3 전가산기 (Full Adder)
 - 자리올림수도 고려하여 3개의 2진수를 더할 수 있게 만든 회로
 
@@ -54,8 +58,11 @@
 - 자리내림수도 고려하여 3개의 2진수를 감산할 수 있게 만든 회로
       
       반감산기 2개, OR게이트 1개  (반감산기 : NOT 1개, AND 1개, XOR 1개)
+      -> AND 2개, XOR 2개, NOT 2개, OR게이트 1개
       차(D) = X⊕Y⊕B
       빌려온수(B) = (X⊕Y)'·B + X'·Y
+
+<img width="400" src="https://user-images.githubusercontent.com/29009929/159108424-6d9a5f18-874f-4361-b8d4-b5a34ee4793d.png">
 
 ## 1.5 병렬가산기 (Parallel Adder)
 - 여러 비트를 가산하기 위한 회로
