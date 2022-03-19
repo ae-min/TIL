@@ -58,11 +58,18 @@
 - 자리내림수도 고려하여 3개의 2진수를 감산할 수 있게 만든 회로
       
       반감산기 2개, OR게이트 1개  (반감산기 : NOT 1개, AND 1개, XOR 1개)
-      -> AND 2개, XOR 2개, NOT 2개, OR게이트 1개
+      -> AND 2개, XOR 2개, NOT 2개, OR 1개
       차(D) = X⊕Y⊕B
       빌려온수(B) = (X⊕Y)'·B + X'·Y
 
 <img width="400" src="https://user-images.githubusercontent.com/29009929/159108424-6d9a5f18-874f-4361-b8d4-b5a34ee4793d.png">
+
+### 가산기 및 감산기 정리
+
+     반가산기 : AND 1개, XOR 1개
+     전가산기 : AND 2개, XOR 2개, OR 1개
+     반감산기 : AND 1개, XOR 1개, NOT 1개
+     전감산기 : AND 2개, XOR 2개, NOT 2개, OR 1     
 
 ## 1.5 병렬가산기 (Parallel Adder)
 - 여러 비트를 가산하기 위한 회로
