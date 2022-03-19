@@ -2,6 +2,8 @@
 ## 1. 불대수의 기본정리
 <img width="400" src="https://user-images.githubusercontent.com/29009929/152480395-36509e9f-352b-4607-b3d0-77075ce0794c.png">
 
+- 드모르간의 법칙 (A+B)' = A'B'
+
 ## 2. 논리게이트
 <img width="400" src="https://user-images.githubusercontent.com/29009929/152480681-ce34ffc5-bbcb-4f9c-92e1-caf25cd96466.png">
 
