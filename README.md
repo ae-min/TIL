@@ -20,3 +20,6 @@
 
 ### 정처기
 - [(구)정보처리기사](https://github.com/ae-min/TIL/tree/main/(%EA%B5%AC)%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC)
+
+### 자료구조
+- [자료구조](https://github.com/ae-min/TIL/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)
